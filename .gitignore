@@ -1,0 +1,23 @@
+
+# --- Secrets & lokale Agent-Configs (agent-config) ---
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+id_*
+secrets/
+auth.json
+.claude/settings.local.json
+CLAUDE.local.md
+
+__pycache__/
+*.pyc
+
+# Werkzeugspezifische Agent-Dateien (nur AGENTS.md ist versioniert)
+CLAUDE.md
+.claude/
+GEMINI.md
+.gemini/
